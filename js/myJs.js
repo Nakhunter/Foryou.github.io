@@ -122,7 +122,8 @@ $(document).ready(function () {
                     left top
                     no-repeat
                   `,
-      showCancelButton: false,
+      showCancelButton: true,
+      cancelButtonText: "Thôi ngại lém :<<",
       confirmButtonColor: "#3085d6",
       cancelButtonColor: "#d33",
       confirmButtonColor: "#fe8a71",
