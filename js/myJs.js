@@ -44,20 +44,6 @@ $(document).ready(function () {
       $(".content").show(200);
     });
   }
-  function secondQuestion() {
-    $(".content").hide();
-    Swal.fire({
-      title: textConfig.text1,
-      text: textConfig.text2,
-      imageUrl: "img/thanlancute.jpg",
-      imageWidth: 300,
-      imageHeight: 300,
-      background: '#fff url("img/iput-bg.jpg")',
-      imageAlt: "Custom image",
-    }).then(function () {
-      $(".content").show(200);
-    });
-  }
   // switch button position
   function switchButton() {
     var audio = new Audio("sound/duck.mp3");
